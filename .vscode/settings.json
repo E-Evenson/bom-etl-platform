@@ -1,0 +1,17 @@
+{
+    "files.exclude": {
+      "**/.venv": true,
+      "**/__pycache__": true,
+      "**/.git": true,
+      "**/.mypy_cache": true
+    },
+    "search.exclude": {
+      "**/.venv": true,
+      "**/__pycache__": true,
+      "**/.git": true,
+      "**/.mypy_cache": true
+    },
+    "python.analysis.autoSearchPaths": false,
+    "python.analysis.autoImportCompletions": false
+  }
+  

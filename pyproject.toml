@@ -1,0 +1,54 @@
+[project]
+name = "bom-etl-platform"
+version = "0.1.0"
+description = "ETL Pipeline for BOM data"
+authors = [
+    {name = "Eric Evenson""}
+]
+readme = "README.md"
+requires-python = ">=3.13, <3.14"
+dependencies = [
+    "colorama (==0.4.6)",
+    "et-xmlfile (==2.0.0)",
+    "numpy (==2.2.4)",
+    "openpyxl (==3.1.5)",
+    "packaging (==25.0)",
+    "pandas (==2.2.3)",
+    "pyodbc (==5.2.0)",
+    "python-dateutil (==2.9.0.post0)",
+    "pytz (==2025.2)",
+    "six (==1.17.0)",
+    "sqlalchemy (==2.0.40)",
+    "typing-extensions (==4.13.0)",
+    "tzdata (==2025.2)",
+    "xlrd (==2.0.1)",
+    "xlwings (==0.33.14)",
+    "python-dotenv (>=1.1.0,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+packages = [
+  { include = "bom_processing", from = "src" },
+  { include = "config", from = "src" },
+  { include = "etl", from = "src" },
+  { include = "inventory_counts", from = "src" }
+]
+
+[tool.poetry.group.dev.dependencies]
+pytest = "8.3.5"
+iniconfig = "2.1.0"
+pluggy = "1.5.0"
+ruff = "^0.11.9"
+pyinstaller = "^6.14.1"
+
+[tool.ruff]
+line-length = 79
+
+[tool.ruff.format]
+docstring-code-format = true
+
