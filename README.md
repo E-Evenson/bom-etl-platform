@@ -2,7 +2,7 @@
 
 ## About this portfolio version
 
-**This project was independently designed and developed including architecture, orchestration, data modeling, and GUI implementation. It was developed as part of my role at a manufacturing company. This project has been adapted for public portfolio use. This public facing version of the BOM ETL Platform is shared to demonstrate technical capability in building end-to-end data pipelines. Sensitive names, filepaths, and identifiers have been removed or replaced with placeholders.**
+**This project was independently designed and developed including architecture, orchestration, data modeling, and GUI implementation. It was developed as part of my role at a manufacturing company. This project has been adapted for public portfolio use. This public facing version of the BOM ETL Platform is shared to demonstrate technical capability in building end-to-end data pipelines. Sensitive names, filepaths, and identifiers have been removed or replaced with placeholders. Test data has also been removed for privacy.**
 
 > Status: Functional Internal Tool - Adapted for portfolio demonstration
 > Requires: Python 3.13+
